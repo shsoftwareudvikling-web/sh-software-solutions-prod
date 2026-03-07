@@ -1,0 +1,37 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-space: ui-sans-serif, system-ui;
+  --font-inter: ui-sans-serif, system-ui;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-inter);
+  background: radial-gradient(1200px 700px at 70% 20%, rgba(59,130,246,.20), transparent 55%),
+              radial-gradient(900px 600px at 20% 80%, rgba(168,85,247,.18), transparent 55%),
+              radial-gradient(700px 500px at 50% 50%, rgba(34,211,238,.14), transparent 50%),
+              #070A12;
+  color: #E5E7EB;
+}
+
+.hfont { font-family: var(--font-space); }
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  backdrop-filter: blur(14px);
+}
+
+.glow {
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.08),
+    0 0 40px rgba(59,130,246,0.16),
+    0 0 80px rgba(168,85,247,0.10);
+}
