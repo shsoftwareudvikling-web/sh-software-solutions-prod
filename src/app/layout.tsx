@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "SH Software Solutions",
-  description: "Kan du forestille dig det, kan vi udvikle det.",
+  description: "det du forstiller dig , udvikler vi.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

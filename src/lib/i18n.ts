@@ -3,7 +3,7 @@
 export const copy = {
   da: {
     nav: { services: "Ydelser", cases: "Cases", about: "Om os", contact: "Kontakt" },
-    heroTitle: "Kan du forestille dig det, kan vi udvikle det.",
+    heroTitle: "det du forstiller dig , udvikler vi.",
     heroSub:
       "Vi bygger moderne softwareløsninger: webapps, API’er, dashboards, integrationer og automatisering — hurtigt, stabilt og skalerbart.",
     primaryCta: "Kontakt",
