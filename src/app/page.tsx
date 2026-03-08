@@ -44,7 +44,7 @@ export default function Page() {
 
       <main className="mx-auto max-w-6xl px-4">
         <section className="pt-14 pb-10">
-          <div className="grid lg:grid-cols-2 gap-10 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
               <motion.h1
                 initial={{ opacity: 0, y: 8 }}
@@ -79,7 +79,7 @@ export default function Page() {
                 </a>
               </div>
 
-              <div className="mt-10 grid sm:grid-cols-3 gap-3">
+              <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {t.cards.map((c, i) => (
                   <div key={i} className="rounded-2xl glass p-4 hover:bg-white/7 transition">
                     <div className="hfont font-semibold">{c.title}</div>
@@ -95,7 +95,7 @@ export default function Page() {
 
         <section id="services" className="py-10">
           <h2 className="hfont text-2xl sm:text-3xl font-semibold">{t.servicesTitle}</h2>
-          <div className="mt-5 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {t.services.map((s, i) => (
               <div key={i} className="rounded-2xl glass glow p-5 hover:bg-white/7 transition">
                 <div className="hfont font-semibold">{s.title}</div>
@@ -107,7 +107,7 @@ export default function Page() {
 
         <section id="cases" className="py-10">
           <h2 className="hfont text-2xl sm:text-3xl font-semibold">{t.casesTitle}</h2>
-          <div className="mt-5 grid lg:grid-cols-3 gap-4">
+          <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.cases.map((c, i) => (
               <div key={i} className="rounded-2xl glass p-5 hover:bg-white/7 transition">
                 <div className="hfont font-semibold">{c.title}</div>
@@ -118,7 +118,7 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="about" className="py-10 grid lg:grid-cols-2 gap-6">
+        <section id="about" className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="rounded-2xl glass p-6">
             <h2 className="hfont text-2xl font-semibold">{t.aboutTitle}</h2>
             <p className="mt-3 text-white/75 leading-relaxed">
@@ -142,7 +142,7 @@ export default function Page() {
 
           <div className="rounded-2xl glass p-6">
             <h3 className="hfont text-xl font-semibold">{t.processTitle}</h3>
-            <div className="mt-4 grid sm:grid-cols-2 gap-3">
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
               {t.process.map((p, i) => (
                 <div key={i} className="rounded-2xl bg-white/5 border border-white/10 p-4">
                   <div className="hfont font-semibold">{p.title}</div>
