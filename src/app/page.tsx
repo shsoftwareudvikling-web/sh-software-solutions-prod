@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-40">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mt-4 rounded-2xl glass px-4 py-3 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Image src="/logo.svg" alt="SH Software Solutions" width={280} height={44} />
@@ -42,9 +42,9 @@ export default function Page() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4">
-        <section className="pt-14 pb-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+      <main className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <section className="pt-8 sm:pt-12 lg:pt-14 pb-8 sm:pb-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
             <div>
               <motion.h1
                 initial={{ opacity: 0, y: 8 }}
@@ -93,7 +93,7 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="services" className="py-10">
+        <section id="services" className="py-8 sm:py-10">
           <h2 className="hfont text-2xl sm:text-3xl font-semibold">{t.servicesTitle}</h2>
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {t.services.map((s, i) => (
@@ -105,7 +105,7 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="cases" className="py-10">
+        <section id="cases" className="py-8 sm:py-10">
           <h2 className="hfont text-2xl sm:text-3xl font-semibold">{t.casesTitle}</h2>
           <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {t.cases.map((c, i) => (
@@ -118,7 +118,7 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="about" className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <section id="about" className="py-8 sm:py-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="rounded-2xl glass p-6">
             <h2 className="hfont text-2xl font-semibold">{t.aboutTitle}</h2>
             <p className="mt-3 text-white/75 leading-relaxed">

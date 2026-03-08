@@ -70,8 +70,8 @@ const CARDS: CardSpec[] = [
 
 export function HeroArt() {
   return (
-    <div className="relative h-[380px] sm:h-[440px]">
-      <div className="absolute -inset-10 blur-3xl opacity-60">
+    <div className="relative h-[320px] sm:h-[380px] lg:h-[440px]">
+      <div className="absolute -inset-4 sm:-inset-10 blur-3xl opacity-60">
         <div className="h-full w-full rounded-[40px] bg-gradient-to-tr from-cyan-400/20 via-blue-500/20 to-purple-500/20" />
       </div>
 
@@ -245,7 +245,7 @@ function FloatingCard({
   return (
     <motion.div
       {...floatSlow}
-      className="w-[172px] rounded-2xl bg-white/5 border border-white/10 p-4 cursor-grab active:cursor-grabbing select-none"
+      className="w-[140px] sm:w-[172px] rounded-2xl bg-white/5 border border-white/10 p-3 sm:p-4 cursor-grab active:cursor-grabbing select-none"
       style={{
         boxShadow:
           "0 0 0 1px rgba(255,255,255,0.08), 0 0 40px rgba(59,130,246,0.16), 0 0 80px rgba(168,85,247,0.10)",
