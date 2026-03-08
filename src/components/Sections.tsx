@@ -29,7 +29,7 @@ const CARDS: CardSpec[] = [
     sub: "Skræddersyede digitale løsninger",
     detail:
       "Vi udvikler skræddersyet software til virksomheder – fra webapplikationer og interne systemer til komplette digitale platforme. Har du en idé eller et problem der kan løses med software, kan vi bygge løsningen.",
-    to: { l: 65, t: 15 },
+    to: { l: 12, t: 12 },
     delay: 0.15,
     rot: -4,
   },
@@ -40,7 +40,7 @@ const CARDS: CardSpec[] = [
     sub: "Systemer der arbejder sammen",
     detail:
       "Vi forbinder dine systemer og data, så din virksomhed arbejder smartere. Vi udvikler API'er, integrationer og dataløsninger der sikrer stabil kommunikation mellem platforme.",
-    to: { l: 25, t: 35 },
+    to: { l: 88, t: 12 },
     delay: 0.28,
     rot: 3,
   },
@@ -51,7 +51,7 @@ const CARDS: CardSpec[] = [
     sub: "Effektivisering af arbejdsprocesser",
     detail:
       "Gentagne manuelle opgaver kan automatiseres. Vi udvikler workflows og automatiserede processer der sparer tid, reducerer fejl og gør din virksomhed mere effektiv.",
-    to: { l: 75, t: 45 },
+    to: { l: 12, t: 88 },
     delay: 0.40,
     rot: -2,
   },
@@ -62,7 +62,7 @@ const CARDS: CardSpec[] = [
     sub: "Teknisk hjælp når du har brug for det",
     detail:
       "Vi hjælper med tekniske udfordringer, systemopsætning og vedligeholdelse. Når teknologien driller, sørger vi for at få dine systemer hurtigt tilbage på sporet",
-    to: { l: 35, t: 65 },
+    to: { l: 88, t: 88 },
     delay: 0.52,
     rot: 2,
   },
